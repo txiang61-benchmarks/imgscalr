@@ -38,6 +38,9 @@ import java.awt.image.RescaleOp;
 
 import javax.imageio.ImageIO;
 
+import units.qual.*;
+import units.UnitsTools;
+
 /**
  * Class used to implement performant, high-quality and intelligent image
  * scaling and manipulation algorithms in native Java 2D.
@@ -614,7 +617,7 @@ public class Scalr {
 	 */
 	public static BufferedImage apply(BufferedImage src, BufferedImageOp... ops)
 			throws IllegalArgumentException, ImagingOpException {
-	  long t = -1;
+	  @ms long t = -1 * UnitsTools.ms;
 	  if (DEBUG)
 	    t = System.currentTimeMillis();
 
@@ -660,7 +663,7 @@ public class Scalr {
 		boolean hasReassignedSrc = false;
 
 		for (int i = 0; i < ops.length; i++) {
-      long subT = -1;
+      @ms long subT = -1 * UnitsTools.ms;
       if (DEBUG)
         subT = System.currentTimeMillis();
 			BufferedImageOp op = ops[i];
@@ -840,7 +843,7 @@ public class Scalr {
 	public static BufferedImage crop(BufferedImage src, int x, int y,
 			int width, int height, BufferedImageOp... ops)
 			throws IllegalArgumentException, ImagingOpException {
-    long t = -1;
+    @ms long t = -1 * UnitsTools.ms;
     if (DEBUG)
       t = System.currentTimeMillis();
 
@@ -1000,7 +1003,7 @@ public class Scalr {
 	public static BufferedImage pad(BufferedImage src, int padding,
 			Color color, BufferedImageOp... ops)
 			throws IllegalArgumentException, ImagingOpException {
-    long t = -1;
+    @ms long t = -1 * UnitsTools.ms;
     if (DEBUG)
       t = System.currentTimeMillis();
 
@@ -1572,7 +1575,7 @@ public class Scalr {
 			Mode resizeMode, int targetWidth, int targetHeight,
 			BufferedImageOp... ops) throws IllegalArgumentException,
 			ImagingOpException {
-    long t = -1;
+    @ms long t = -1 * UnitsTools.ms;
     if (DEBUG)
       t = System.currentTimeMillis();
 
@@ -1795,7 +1798,7 @@ public class Scalr {
 	public static BufferedImage rotate(BufferedImage src, Rotation rotation,
 			BufferedImageOp... ops) throws IllegalArgumentException,
 			ImagingOpException {
-    long t = -1;
+    @ms long t = -1 * UnitsTools.ms;
     if (DEBUG)
       t = System.currentTimeMillis();
 
@@ -1857,7 +1860,7 @@ public class Scalr {
 
 			// Reminder: newWidth == result.getHeight() at this point
 			tx.translate(newWidth, 0);
-			tx.rotate(Math.toRadians(90));
+			tx.rotate(Math.toRadians(90 * UnitsTools.deg));
 
 			break;
 
@@ -1871,12 +1874,12 @@ public class Scalr {
 
 			// Reminder: newHeight == result.getWidth() at this point
 			tx.translate(0, newHeight);
-			tx.rotate(Math.toRadians(-90));
+			tx.rotate(Math.toRadians(-90 * UnitsTools.deg));
 			break;
 
 		case CW_180:
 			tx.translate(newWidth, newHeight);
-			tx.rotate(Math.toRadians(180));
+			tx.rotate(Math.toRadians(180 * UnitsTools.deg));
 			break;
 
 		case FLIP_HORZ:
@@ -1941,7 +1944,7 @@ public class Scalr {
 	 * @see Scalr#LOG_PREFIX
 	 * @see Scalr#LOG_PREFIX_PROPERTY_NAME
 	 */
-	protected static void log(int depth, String message, Object... params) {
+	protected static void log(int depth, String message, @UnknownUnits Object... params) {
 		if (Scalr.DEBUG) {
 			System.out.print(Scalr.LOG_PREFIX);
 
