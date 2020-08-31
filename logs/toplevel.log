@@ -1,0 +1,15 @@
+[INFO] Running command /home/opprop/do-like-javac/dljc -t inference --guess --crashExit --checker units.UnitsChecker --solver units.solvers.backend.UnitsSolverEngine --solverArgs=solver=Z3smt,optimizingMode=true,collectStatistics=true,writeSolutions=true,noAppend=false -o logs -m ROUNDTRIP -afud /home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/annotated -- mvn -B -DskipTests compile
+[INFO] Platform: Linux-5.4.0-1021-gcp-x86_64-with-Ubuntu-18.04-bionic
+[INFO] PATH=/home/opprop/annotation-tools/annotation-file-utilities/scripts:/home/opprop/z3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+[INFO] SHELL=None
+[INFO] PWD=/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr
+[INFO] Results: [{'java_files': ['/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/src/main/java/org/imgscalr/AsyncScalr.java',
+                 '/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/src/main/java/org/imgscalr/Scalr.java'],
+  'javac_switches': {'classpath': '/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/target/classes:',
+                     'd': '/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/target/classes',
+                     'encoding': 'UTF-8',
+                     'g': True,
+                     'nowarn': True,
+                     'source': '1.5',
+                     'sourcepath': '/home/opprop/units-inference/benchmarks/paper-annotation/imgscalr/src/main/java:',
+                     'target': '1.5'}}]

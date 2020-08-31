@@ -1,0 +1,973 @@
+package units.qual:
+  annotation @kg:
+
+package units.qual:
+  annotation @s:
+
+package units.qual:
+  annotation @W:
+
+package units.qual:
+  annotation @J:
+
+package units.qual:
+  annotation @kg2PERs2:
+
+package units.qual:
+  annotation @g8:
+
+package units.qual:
+  annotation @ms:
+
+package units.qual:
+  annotation @bars3PERm:
+
+package units.qual:
+  annotation @BUC:
+    String unit
+    int exponent
+
+package units.qual:
+  annotation @UnitsRep:
+    boolean top
+    int prefixExponent
+    boolean bot
+    annotation-field units.qual.BUC[] baseUnitComponents
+
+package units.qual:
+  annotation @PERm2s2:
+
+package units.qual:
+  annotation @UnknownUnits:
+
+package units.qual:
+  annotation @us:
+
+package units.qual:
+  annotation @m3PERhr:
+
+package units.qual:
+  annotation @mPERs2:
+
+package units.qual:
+  annotation @km:
+
+package units.qual:
+  annotation @WPERm2K:
+
+package units.qual:
+  annotation @hr:
+
+package units.qual:
+  annotation @m2s2:
+
+package units.qual:
+  annotation @gPERmol:
+
+package units.qual:
+  annotation @deg:
+
+package units.qual:
+  annotation @rad:
+
+package units.qual:
+  annotation @kgPERs:
+
+package units.qual:
+  annotation @Pas:
+
+package units.qual:
+  annotation @JPERKmol:
+
+package units.qual:
+  annotation @mol:
+
+package units.qual:
+  annotation @ns:
+
+package units.qual:
+  annotation @m2:
+
+package units.qual:
+  annotation @K:
+
+package units.qual:
+  annotation @Pa:
+
+package units.qual:
+  annotation @C:
+
+package units.qual:
+  annotation @MJ:
+
+package units.qual:
+  annotation @kgPERm2s:
+
+package units.qual:
+  annotation @UnitsBottom:
+
+package units.qual:
+  annotation @PolyUnit:
+
+package units.qual:
+  annotation @g:
+
+package units.qual:
+  annotation @kgPERm3:
+
+package units.qual:
+  annotation @bar:
+
+package units.qual:
+  annotation @RDU:
+
+package units.qual:
+  annotation @mm:
+
+package units.qual:
+  annotation @m:
+
+package units.qual:
+  annotation @MJPERm3:
+
+package units.qual:
+  annotation @m3:
+
+package units.qual:
+  annotation @mm2:
+
+package units.qual:
+  annotation @mPERs:
+
+package units.qual:
+  annotation @kgPERmol:
+
+package units.qual:
+  annotation @m2PERs2:
+
+package units.qual:
+  annotation @s2PERm2:
+
+package units.qual:
+  annotation @m2PERs2K:
+
+package units.qual:
+  annotation @Dimensionless:
+
+package org.imgscalr:
+class AsyncScalr$1:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$2:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$3:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$4:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class Scalr$Method:@units.qual.Dimensionless
+field ULTRA_QUALITY:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field BALANCED:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field AUTOMATIC:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field QUALITY:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field SPEED:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$5:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$6:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$7:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$8:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$10:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$11:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$12:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$13:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class Scalr$Mode:@units.qual.Dimensionless
+field BEST_FIT_BOTH:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field FIT_TO_WIDTH:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field FIT_EXACT:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field FIT_TO_HEIGHT:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field AUTOMATIC:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$14:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$ServerThreadFactory:@units.qual.Dimensionless
+method newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr:@units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, If.thenStatement, Throw.expression, NewClass.argument 0, Binary.leftOperand, Binary.leftOperand, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+
+field service:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field THREAD_COUNT_PROPERTY_NAME:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field THREAD_COUNT:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, MethodInvocation.argument 1: @units.qual.Dimensionless
+
+method getService()Ljava/util/concurrent/ExecutorService;:
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method pad(Ljava/awt/image/BufferedImage;I[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;II[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method crop(Ljava/awt/image/BufferedImage;II[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+
+method createService()Ljava/util/concurrent/ExecutorService;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 0, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;I[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method apply(Ljava/awt/image/BufferedImage;[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Mode;I[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;Lorg/imgscalr/Scalr$Mode;I[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;I[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+
+method pad(Ljava/awt/image/BufferedImage;ILjava/awt/Color;[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;Lorg/imgscalr/Scalr$Mode;II[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;II[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+
+method createService(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;:
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method <init>()V:
+
+method rotate(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Rotation;[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Mode;II[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+
+method crop(Ljava/awt/image/BufferedImage;IIII[Ljava/awt/image/BufferedImageOp;)Ljava/util/concurrent/Future;:
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, MethodInvocation.argument 0, NewClass.identifier, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type, ParameterizedType.typeArgument 0: @units.qual.Dimensionless
+
+package org.imgscalr:
+class Scalr:@units.qual.Dimensionless
+insert-annotation Class.initializer 0, Block.statement 0, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+
+field THRESHOLD_QUALITY_BALANCED:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+
+field DEBUG_PROPERTY_NAME:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field DEBUG:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, MethodInvocation.argument 0: @units.qual.Dimensionless
+
+field OP_DARKER:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field LOG_PREFIX_PROPERTY_NAME:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field THRESHOLD_BALANCED_SPEED:
+insert-annotation Variable.initializer: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field OP_ANTIALIAS:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 1: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.type 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.type 1: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 1: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 2: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 3: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 4: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 5: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 6: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 7: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 2, NewArray.initializer 8: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, NewClass.argument 1: @units.qual.Dimensionless
+
+field LOG_PREFIX:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, MethodInvocation.argument 0: @units.qual.Dimensionless
+
+field OP_BRIGHTER:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 1: @units.qual.Dimensionless
+
+field OP_GRAYSCALE:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method log(ILjava/lang/String;[Ljava/lang/Object;)V:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.UnknownUnits
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 1, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Block.statement 1, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+
+method createOptimalImage(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+
+method scaleImageIncrementally(Ljava/awt/image/BufferedImage;IILorg/imgscalr/Scalr$Method;Ljava/lang/Object;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 4, Variable.initializer, Parenthesized.expression, ConditionalExpression.falseExpression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, DoWhileLoop.statement, Block.statement 5, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, DoWhileLoop.statement, Block.statement 6, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.initializer, Parenthesized.expression, ConditionalExpression.trueExpression: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, DoWhileLoop.statement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, DoWhileLoop.statement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+
+method apply(Ljava/awt/image/BufferedImage;[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 5, If.condition, Parenthesized.expression, Unary.expression, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 7, Variable.initializer, MethodInvocation.argument 1, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 7, Variable.initializer, MethodInvocation.argument 2, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 4, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 12, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 7, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 8, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 6, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.initializer 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.body, Block.statement 8, ForLoop.initializer 0, Variable.initializer: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 9, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, ForLoop.statement, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.body, Block.statement 7, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, If.condition, Parenthesized.expression, Unary.expression, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;I[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method <init>()V:
+
+method resize(Ljava/awt/image/BufferedImage;II[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method crop(Ljava/awt/image/BufferedImage;IIII[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.leftOperand, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.body, Block.statement 14, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.leftOperand, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, ExpressionStatement.expression, MethodInvocation.argument 2: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 9, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 13, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+
+method copyToOptimalImage(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, Parenthesized.expression, ConditionalExpression.trueExpression: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, Parenthesized.expression, ConditionalExpression.falseExpression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, ExpressionStatement.expression, MethodInvocation.argument 2: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.initializer, Parenthesized.expression, ConditionalExpression.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Mode;I[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;Lorg/imgscalr/Scalr$Mode;II[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.thenStatement, Block.statement 2, ExpressionStatement.expression, Assignment.expression, MethodInvocation.argument 0, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 16, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.thenStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.thenStatement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.thenStatement, Block.statement 3, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, Parenthesized.expression, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 1, Variable.initializer, Parenthesized.expression, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.body, Block.statement 7, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 9, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 5, Parenthesized.expression, ConditionalExpression.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 3, ExpressionStatement.expression, Assignment.expression, MethodInvocation.argument 0, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 4, ExpressionStatement.expression, Assignment.expression, MethodInvocation.argument 0, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.elseStatement, Block.statement 3, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 15, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.thenStatement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.body, Block.statement 15, If.elseStatement, If.elseStatement, If.thenStatement, Block.statement 0, If.elseStatement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.initializer, Parenthesized.expression, Binary.rightOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 0, Variable.initializer, Parenthesized.expression, Binary.rightOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 1, Variable.initializer, Parenthesized.expression, Binary.rightOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.thenStatement, Block.statement 6, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.initializer, Parenthesized.expression, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 17, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.elseStatement, Block.statement 2, ExpressionStatement.expression, Assignment.expression, MethodInvocation.argument 0, Binary.leftOperand, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, If.elseStatement, If.elseStatement, Block.statement 0, If.elseStatement, Block.statement 1, Variable.type: @units.qual.Dimensionless
+
+method rotate(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Rotation;[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 4, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.initializer, TypeCast.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 13, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 0, Case.statement 3, ExpressionStatement.expression, MethodInvocation.argument 0, MethodInvocation.argument 0: @units.qual.deg
+insert-annotation Method.body, Block.statement 8, Switch.case 1, Case.statement 3, ExpressionStatement.expression, MethodInvocation.argument 0, MethodInvocation.argument 0: @units.qual.deg
+insert-annotation Method.body, Block.statement 8, Switch.case 2, Case.statement 1, ExpressionStatement.expression, MethodInvocation.argument 0, MethodInvocation.argument 0: @units.qual.deg
+insert-annotation Method.body, Block.statement 8, Switch.case 3, Case.statement 0, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 3, Case.statement 1, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 4, Case.statement 0, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 4, Case.statement 1, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 9, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 3, Case.statement 1, ExpressionStatement.expression, MethodInvocation.argument 0, Unary.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 4, Case.statement 1, ExpressionStatement.expression, MethodInvocation.argument 1, Unary.expression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 0, Case.statement 2, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Switch.case 1, Case.statement 2, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+
+method pad(Ljava/awt/image/BufferedImage;ILjava/awt/Color;[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.ms
+insert-annotation Method.body, Block.statement 0, Variable.initializer: @units.qual.ms
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 17, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 17, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.elseStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.argument 2: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 10, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 20, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 13, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.elseStatement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 4, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, Variable.initializer, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.thenStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.argument 2: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 11, Variable.initializer, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 12, Variable.initializer, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 5, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 6, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.thenStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.elseStatement, Block.statement 1, ExpressionStatement.expression, Assignment.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 15, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 14, If.thenStatement, Block.statement 0, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 7, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 8, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 9, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 21, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+
+method scaleImage(Ljava/awt/image/BufferedImage;IILjava/lang/Object;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 3, ExpressionStatement.expression, MethodInvocation.argument 2: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method determineScalingMethod(IIF)Lorg/imgscalr/Scalr$Method;:
+insert-annotation Method.body, Block.statement 3, If.thenStatement, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, Parenthesized.expression, ConditionalExpression.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.elseStatement, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, If.condition, Parenthesized.expression, Binary.rightOperand: @units.qual.Dimensionless
+
+method crop(Ljava/awt/image/BufferedImage;II[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Return.expression, MethodInvocation.argument 2: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method pad(Ljava/awt/image/BufferedImage;I[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;I[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;Lorg/imgscalr/Scalr$Mode;I[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Method;II[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+
+method createOptimalImage(Ljava/awt/image/BufferedImage;II)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.body, Block.statement 1, Return.expression, NewClass.argument 2, Parenthesized.expression, ConditionalExpression.condition, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, NewClass.argument 2, Parenthesized.expression, ConditionalExpression.falseExpression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.thenStatement, Throw.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.rightOperand, Binary.rightOperand: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, NewClass.argument 2, Parenthesized.expression, ConditionalExpression.trueExpression: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Return.expression, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, If.condition, Parenthesized.expression, Binary.leftOperand, Binary.rightOperand: @units.qual.Dimensionless
+
+method resize(Ljava/awt/image/BufferedImage;Lorg/imgscalr/Scalr$Mode;II[Ljava/awt/image/BufferedImageOp;)Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter 2, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 3, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 1, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.parameter 4, Variable.type, ArrayType.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$DefaultThreadFactory:@units.qual.Dimensionless
+field poolNumber:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field namePrefix:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field group:
+insert-annotation Variable.type: @units.qual.Dimensionless
+
+field threadNumber:
+insert-annotation Variable.type: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.argument 0: @units.qual.Dimensionless
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;:
+insert-annotation Method.parameter 0, Variable.type: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 2, ExpressionStatement.expression, MethodInvocation.argument 0: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.argument 3: @units.qual.Dimensionless
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 0, Variable.type: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.body, Block.statement 1, Variable.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class AsyncScalr$9:
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+method call()Ljava/awt/image/BufferedImage;:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+insert-annotation Method.type: @units.qual.Dimensionless
+
+package org.imgscalr:
+class Scalr$Rotation:@units.qual.Dimensionless
+field CW_180:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field FLIP_HORZ:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field CW_90:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field CW_270:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+field FLIP_VERT:
+insert-annotation Variable.initializer, NewClass.identifier: @units.qual.Dimensionless
+
+method <init>()V:
+insert-annotation Method.parameter -1: @units.qual.Dimensionless
+
+
